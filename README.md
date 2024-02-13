@@ -33,6 +33,15 @@ grep Swap /proc/meminfo
  
 Make it permanent (persist on restarts)
 Add this line to the end of your /etc/fstab:
+
  ```
+sudo -i
+```
+```
+nano /etc/fstab
+```
+
+ 
+```
 /swapfile swap swap sw 0 0
 ```
