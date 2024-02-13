@@ -17,11 +17,13 @@ sudo dd if=/dev/zero of=/swapfile bs=1G count=8
 ```
 sudo chmod 0600 /swapfile
 ```
+# Set up a Linux swap area
 ```
-sudo mkswap /swapfile  # Set up a Linux swap area
+sudo mkswap /swapfile
 ```
+# Turn the swap on
 ```
-sudo swapon /swapfile  # Turn the swap on
+sudo swapon /swapfile
  ```
  
 Check if it worked
